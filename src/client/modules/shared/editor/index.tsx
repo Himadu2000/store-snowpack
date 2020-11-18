@@ -50,6 +50,7 @@ const Draft = (props: props) => {
 
   return (
     <Editor
+      //@ts-ignore
       editorState={editorState}
       onChange={setEditorState}
       plugins={plugins}
